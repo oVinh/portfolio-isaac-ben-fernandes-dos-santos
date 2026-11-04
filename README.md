@@ -2,12 +2,9 @@
 > Estudante de Análise e Desenvolvimento de Sistemas
 ---
 ### 📫 Contato & Redes Sociais
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-
-badge&logo=linkedin&logoColor=white)] www.linkedin.com/in/isaac-ben-santos
-[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge
-&logo=gmail&logoColor=white)]samuben25@gmail.com
-[![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-th
-e-badge&logo=read-the-docs&logoColor=white)]
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/isaac-ben-santos)
+[![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:samuben25@gmail.com)
+[![Currículo](https://img.shields.io/badge/Curriculo-000000?style=for-the-badge&logo=read-the-docs&logoColor=white)](COLOQUE_AQUI_O_LINK_DO_CURRICULO)
 ---
 ### 󰞵 Sobre
 Atualmente cursando o 2º período de Análise e Desenvolvimento de Sistemas (ADS) na Universidade Cidade de São Paulo. Sou apaixonado por resolver problemas através da
