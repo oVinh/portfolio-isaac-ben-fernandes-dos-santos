@@ -5,7 +5,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-
 badge&logo=linkedin&logoColor=white)] www.linkedin.com/in/isaac-ben-santos
 [![E-mail](https://img.shields.io/badge/Email-D14836?style=for-the-badge
-&logo=gmail&logoColor=white)](mailto:samuben25@gmail.com)
+&logo=gmail&logoColor=white)]samuben25@gmail.com
 [![Currículo](https://img.shields.io/badge/Currículo-000000?style=for-th
 e-badge&logo=read-the-docs&logoColor=white)]
 ---
