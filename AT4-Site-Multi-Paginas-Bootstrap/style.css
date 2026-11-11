@@ -1,0 +1,15 @@
+.img-carrossel {
+    height: 300px;
+    background-color: #ccc;
+    object-fit: cover;
+}
+
+.img-sobre {
+    background-color: #ddd;
+    min-height: 200px;
+}
+
+.img-galeria {
+    height: 150px;
+    object-fit: cover;
+}
