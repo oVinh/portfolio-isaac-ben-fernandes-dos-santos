@@ -45,6 +45,6 @@ Este projeto contou com o auxílio de inteligência artificial como ferramenta d
 A inteligência artificial foi utilizada para auxiliar na identificação e correção de erros, além de oferecer suporte durante o desenvolvimento das páginas e da estilização do site.
 
 ## 💻 Deploy do projeto
-[Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
+[Clique para acessar](https://ovinh.github.io/site-cafe3/)
 ---
 [Voltar ao início](https://github.com/seu-usuario/portfolio-usuario)
