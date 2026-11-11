@@ -90,4 +90,4 @@ Os commits no repositório refletem a divisão real de tarefas entre nós dois.
 
 ## Transparência sobre o uso de IA
 
-A dupla desenvolveu uma versão inicial do HTML e do CSS. O projeto recebeu posteriormente alterações e recursos elaborados com auxílio do ChatGPT, inclusive em HTML e CSS. A utilização de IA nos scripts e o processo de revisão são apresentados em `AUDITORIA_IA.md`.
+A dupla desenvolveu uma versão inicial do HTML e do CSS. O projeto recebeu posteriormente alterações com auxílio do ChatGPT. A utilização de IA nos scripts e o processo de revisão são apresentados em `AUDITORIA_IA.md`.
