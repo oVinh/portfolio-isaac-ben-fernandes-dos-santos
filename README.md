@@ -71,6 +71,7 @@ Projetos desenvolvidos durante a disciplina de Desenvolvimento Front-End para We
 Alguns dos projetos também estão disponíveis para visualização pelo GitHub Pages.
 
 * **Café no Bairro:** [Acessar site](https://ovinh.github.io/site-cafe3/)
+* **Calculadora IMC:** [Acessar site](https://ovinh.github.io/calculadora-imc/)
 * **Jogos Clássicos:** [Acessar site](https://ovinh.github.io/jogos-cl-ssicos/)
 * **Monitoramento Digital e Trabalho Híbrido:** [Acessar site](https://ovinh.github.io/monitoramento-trabalho-hibrido/)
 
