@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pesquisa sobre monitoramento digital, autonomia e bem-estar de jovens no trabalho híbrido.">
+    <title>Monitoramento digital e trabalho híbrido</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg" aria-label="Menu principal">
+            <div class="container">
+                <a class="navbar-brand" href="#inicio">Trabalho híbrido</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Menu de navegação">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#simulador">Planejador</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#dados">Pesquisa</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">Perguntas</a></li>
+                        <li class="nav-item"><button type="button" id="temaToggle" class="btn btn-outline-primary btn-sm ms-lg-2 mt-2 mt-lg-0" aria-pressed="false" aria-label="Alternar tema claro e escuro">Tema escuro</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="inicio" class="container mt-4">
+        <section id="sobre" class="mb-5">
+            <h1>Monitoramento digital, autonomia e bem-estar no trabalho híbrido</h1>
+            <p class="texto-introducao">Como o acompanhamento das atividades por ferramentas digitais pode se relacionar com o bem-estar de profissionais jovens?</p>
+            <p>O trabalho híbrido une dias em casa e dias no escritório. A tecnologia facilita a comunicação, mas o monitoramento constante também pode gerar desconforto. Nesta página, comparamos dados de pesquisas sobre trabalho e bem-estar.</p>
+            <div class="row g-3 mt-2">
+                <article class="col-md-6">
+                    <div class="card h-100"><div class="card-body">
+                        <h2 class="card-title h5">Flexibilidade e autonomia <span class="badge text-bg-success">Positivo</span></h2>
+                        <p>O trabalho híbrido permite combinar momentos de concentração em casa com a convivência presencial. A organização das tarefas pode ser facilitada por ferramentas digitais.</p>
+                    </div></div>
+                </article>
+                <article class="col-md-6">
+                    <div class="card h-100"><div class="card-body">
+                        <h2 class="card-title h5">Pressão e microgerenciamento <span class="badge text-bg-danger">Crítico</span></h2>
+                        <p>O excesso de controle pode estar relacionado a mais estresse e à sensação de pouca liberdade. Isso exige atenção à privacidade e à comunicação entre empresas e trabalhadores.</p>
+                    </div></div>
+                </article>
+            </div>
+            <aside class="mt-3">
+                <p class="mb-0">Segundo a Gallup, em pesquisa de 2025 com trabalhadores da Geração Z dos EUA cujas funções permitem trabalho remoto, <strong>71% preferiam o modelo híbrido</strong>. Esse resultado trata de preferência, não de monitoramento digital. <a href="https://www.gallup.com/workplace/692675/fully-remote-work-least-popular-gen-z.aspx" target="_blank" rel="noopener noreferrer">Fonte: Gallup</a>.</p>
+            </aside>
+        </section>
+
+        <section id="simulador" class="mb-5">
+            <h2>Planejador simples de pausas</h2>
+            <p>Informe sua jornada e a frequência desejada das pausas. Esta ferramenta apenas calcula um exemplo de organização do tempo.</p>
+            <form id="formularioPausas" class="card p-3" novalidate>
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label class="form-label" for="horasTrabalho">Horas de trabalho no dia</label>
+                        <input class="form-control" type="number" id="horasTrabalho" min="1" max="12" step="1" value="8" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="intervaloPausas">Pausa a cada quantos minutos?</label>
+                        <input class="form-control" type="number" id="intervaloPausas" min="15" max="180" step="1" value="60" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label" for="duracaoPausas">Duração da pausa (minutos)</label>
+                        <input class="form-control" type="number" id="duracaoPausas" min="1" max="30" step="1" value="5" required>
+                    </div>
+                </div>
+                <button class="btn btn-primary mt-3" type="submit">Calcular pausas</button>
+                <p id="resultadoPausas" class="mt-3 mb-0 fw-bold" role="status" aria-live="polite"></p>
+            </form>
+        </section>
+
+        <section id="dados" class="mb-5">
+            <h2>O que mostram os dados?</h2>
+            <p>Na pesquisa da APA de 2024, trabalhadores dos Estados Unidos que sabiam ser monitorados relataram mais estresse e microgerenciamento do que os que não eram monitorados ou não sabiam disso.</p>
+            <section class="resumo-grid" aria-label="Resumo dos dados da pesquisa">
+                <article class="resumo-item">
+                    <h3>Estresse</h3>
+                    <p><strong>51%</strong> monitorados; <strong>38%</strong> não monitorados ou sem conhecimento</p>
+                </article>
+                <article class="resumo-item">
+                    <h3>Microgerenciamento</h3>
+                    <p><strong>47%</strong> monitorados; <strong>23%</strong> não monitorados ou sem conhecimento</p>
+                </article>
+            </section>
+            <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <div class="card p-3">
+                        <h3 class="h5">Percepções no trabalho (%)</h3>
+                        <div class="grafico-area"><canvas id="graficoDados" role="img" aria-label="Gráfico de barras da pesquisa APA, com os valores de estresse e microgerenciamento apresentados acima."></canvas></div>
+                        <p class="small mb-0 mt-2">Os dados mostram associação, não comprovam causa. A pesquisa não foi exclusiva com a Geração Z. <a href="https://www.apa.org/pubs/reports/work-in-america/2024/2024-work-in-america-report.pdf" target="_blank" rel="noopener noreferrer">Fonte: APA, 2024, p. 21</a>.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="h5 mt-4">Uma questão para refletir</h3>
+            <p>Se um sistema mede todas as atividades de um funcionário, ele ajuda na organização ou aumenta a pressão? A resposta pode depender do tipo de monitoramento, da transparência e da autonomia oferecida.</p>
+        </section>
+
+        <section id="faq" class="mb-5">
+            <h2>Perguntas frequentes</h2>
+            <div class="accordion" id="accordionFaq">
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="perguntaUm"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#respostaUm" aria-expanded="true" aria-controls="respostaUm">O que é monitoramento digital?</button></h3>
+                    <div id="respostaUm" class="accordion-collapse collapse show" aria-labelledby="perguntaUm" data-bs-parent="#accordionFaq"><div class="accordion-body">É o acompanhamento de atividades de trabalho por ferramentas como programas, registros de acesso e sistemas de produtividade.</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="perguntaDois"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#respostaDois" aria-expanded="false" aria-controls="respostaDois">O monitoramento sempre causa estresse?</button></h3>
+                    <div id="respostaDois" class="accordion-collapse collapse" aria-labelledby="perguntaDois" data-bs-parent="#accordionFaq"><div class="accordion-body">Não é possível afirmar isso com base nos dados apresentados. A pesquisa da APA encontrou uma associação, mas não demonstrou que o monitoramento seja a causa do estresse.</div></div>
+                </div>
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="perguntaTres"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#respostaTres" aria-expanded="false" aria-controls="respostaTres">Por que falar da Geração Z?</button></h3>
+                    <div id="respostaTres" class="accordion-collapse collapse" aria-labelledby="perguntaTres" data-bs-parent="#accordionFaq"><div class="accordion-body">Porque jovens profissionais estão começando a carreira em ambientes com trabalho híbrido, colaboração digital e novas formas de acompanhamento de desempenho.</div></div>
+                </div>
+            </div>
+        </section>
+        <section id="fontes" class="mb-5">
+            <h2>Fontes consultadas</h2>
+            <ul>
+                <li><a href="https://www.apa.org/pubs/reports/work-in-america/2024/2024-work-in-america-report.pdf" target="_blank" rel="noopener noreferrer">APA — Work in America (2024)</a></li>
+                <li><a href="https://www.gallup.com/workplace/692675/fully-remote-work-least-popular-gen-z.aspx" target="_blank" rel="noopener noreferrer">Gallup — Preferências da Geração Z (2025)</a></li>
+                <li><a href="https://www.microsoft.com/en-us/worklab/work-trend-index/breaking-down-infinite-workday" target="_blank" rel="noopener noreferrer">Microsoft — Breaking down the infinite workday (2025)</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="text-center p-3"><p class="mb-0">© 2026 - Projeto desenvolvido por Isaac Ben Fernandes dos Santos e Guilherme Alves.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.8/dist/chart.umd.min.js"></script>
+    <script src="js/planejador.js"></script>
+    <script src="js/grafico.js"></script>
+    <script src="js/tema.js"></script>
+</body>
+</html>

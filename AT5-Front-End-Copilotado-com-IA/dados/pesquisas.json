@@ -1,0 +1,18 @@
+{
+  "tema": "Monitoramento digital, autonomia e bem-estar no trabalho híbrido",
+  "indicadores": [
+    {
+      "nome": "Estresse",
+      "monitorados": 51,
+      "nao_monitorados_ou_nao_sabem": 38
+    },
+    {
+      "nome": "Microgerenciamento",
+      "monitorados": 47,
+      "nao_monitorados_ou_nao_sabem": 23
+    }
+  ],
+  "fonte": "American Psychological Association, Work in America 2024",
+  "url": "https://www.apa.org/pubs/reports/work-in-america/2024/2024-work-in-america-report.pdf",
+  "observacao": "Porcentagens referentes a trabalhadores pesquisados nos EUA; não são dados exclusivos da Geração Z. Relação estatística não estabelece causalidade."
+}
