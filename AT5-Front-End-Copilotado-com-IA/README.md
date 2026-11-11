@@ -33,6 +33,6 @@ testado e compreendido por mim, garantindo a minha responsabilidade
 integral sobre a autoria final, integridade e funcionamento da
 aplicação.
 ## 💻 Deploy do projeto
-[Clique para acessar]https://ovinh.github.io/monitoramento-trabalho-hibrido/
+[Clique para acessar](https://ovinh.github.io/monitoramento-trabalho-hibrido/)
 ---
 [Voltar ao início](https://github.com/seu-usuario/portfolio-usuario)
