@@ -1,37 +1,49 @@
-# 🎬 Deploy de Site
+# ☕ Deploy de Site — Café no Bairro
+
 ## 📝 Descrição do Projeto
-Este projeto consiste em um motor de recomendação inteligente que
-utiliza técnicas de filtragem colaborativa e baseada em conteúdo. O
-objetivo principal é mitigar a "paralisia de escolha", oferecendo aos
-usuários sugestões personalizadas com base em seu histórico de
-visualização e preferências de gênero.
-Desenvolvido como parte das disciplinas de **Desenvolvimento Front-End
-Para Web (2026.2)**, o sistema processa grandes volumes de dados
-(datasets de filmes e avaliações) para identificar padrões de
-comportamento e similaridades entre títulos, utilizando algoritmos de
-aprendizado de máquina para prever a nota que um usuário daria a um
-filme ainda não assistido.
+
+Este projeto consiste no desenvolvimento de um site para uma cafeteria fictícia chamada **Café no Bairro**, com o objetivo de apresentar o estabelecimento, seus produtos e informações de contato.
+
+Desenvolvido como parte das atividades da disciplina de **Desenvolvimento Front-End Para Web (2026.2)**, o projeto utiliza HTML5 e CSS3 para estruturar e estilizar as páginas, proporcionando uma navegação simples e organizada.
+
+O site conta com cinco páginas principais:
+
+- **Início:** apresentação da cafeteria e destaque de um produto.
+- **Sobre Nós:** história do estabelecimento e seus valores.
+- **Cardápio:** apresentação de bebidas e alimentos com descrições e preços.
+- **Galeria:** exposição de imagens do ambiente e dos produtos.
+- **Contato:** informações de localização, horário de funcionamento e formulário de contato.
+
 ## 🚀 Tecnologias Utilizadas
-* **Linguagem:** HTML5, CSS e JavaScript
-* **Bibliotecas:** Bootstrap
-* **Ferramentas:** VSCode
-* **Modelo de IA:** Gemini
+
+- **Linguagens:** HTML5 e CSS3.
+- **Editor de código:** Visual Studio Code.
+- **Controle de versão:** GitHub.
+- **Inteligência Artificial:** Gemini.
+
 ## 📊 Resultados e Aprendizados
-O projeto alcançou resultados sólidos em ambiente de teste, demonstrando
-a eficácia do modelo híbrido.
-* **O modelo atingiu 92% de acurácia** nos testes de validação.
-* **Redução de Ruído:** Aprendi a aplicar técnicas de limpeza e
-normalização de dados para melhorar a performance dos algoritmos.
-* **Visualização de Clusters:** Implementei gráficos que mostram como o
-sistema agrupa filmes por afinidade.
+
+O desenvolvimento deste projeto permitiu colocar em prática conceitos fundamentais de desenvolvimento web, principalmente relacionados à organização de páginas e estilização de elementos.
+
+Entre os principais aprendizados estão:
+
+- **Estruturação HTML:** utilização de elementos semânticos, como `header`, `nav`, `main`, `section`, `article` e `footer`.
+- **Estilização com CSS:** aplicação de cores, fontes, espaçamentos, bordas e efeitos visuais.
+- **Navegação:** criação de links entre as cinco páginas do site.
+- **Organização de arquivos:** separação dos documentos HTML, estilos CSS e imagens em diretórios específicos.
+- **Formulários:** criação de campos para preenchimento de nome, e-mail e mensagem.
+- **Responsividade:** utilização de propriedades CSS para adaptação de imagens e organização do menu em diferentes larguras de tela.
+
 ## 🧠 Declaração de Uso Ético da IA
-Este projeto utilizou inteligência artificial ([Nome do Modelo, ex:
-ChatGPT / GitHub Copilot]) estritamente como ferramenta de suporte
-tecnológico para [Finalidade, ex: estruturação inicial do HTML e
-depuração de funções em JavaScript]. Todo o código gerado foi revisado,
-testado e compreendido por mim, garantindo a minha responsabilidade
-integral sobre a autoria final, integridade e funcionamento da
-aplicação.
+
+Este projeto contou com o auxílio de inteligência artificial como ferramenta de apoio ao desenvolvimento.
+
+**Ferramenta utilizada:** Gemini.
+
+**Finalidade de utilização:** Apoio no desenvolvimento e correção de códigos.
+
+A inteligência artificial foi utilizada para auxiliar na identificação e correção de erros, além de oferecer suporte durante o desenvolvimento das páginas e da estilização do site.
+
 ## 💻 Deploy do projeto
 [Clique para acessar](https://seu-usuario.github.io/xxxxxxxxx/)
 ---
